@@ -28,7 +28,8 @@
       </ion-item>
 
       <ion-button expand="block" (click)="addDeveloper()">Add Developer info</ion-button>
-
+-->
+<div>
       <ion-list>
         <ion-item button *ngFor="let dev of developers" [routerLink]="['/', 'developers', dev.id]">
           <ion-label>
@@ -37,9 +38,10 @@
           </ion-label>
         </ion-item>
       </ion-list>
+      <p> end of list :)</p>
     </div>
  
-
+<!--
   <div *ngSwitchCase=" 'products'">
     <ion-item>
       <ion-label position="stacked">Product name</ion-label>
@@ -63,6 +65,6 @@
     </ion-list>
   </div>
 </div>
- 
--->
+ -->
+
 </ion-content>
